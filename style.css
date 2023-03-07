@@ -41,11 +41,10 @@
     color: #0b0b0b;
   }
 
-  .content .cash p {
+  .content .cash .digital p {
     font-size: 1.5rem;
     color: #0b0b0b;
   }
-
   #order-form {
     width: 100%;
     text-align: center;
@@ -117,6 +116,10 @@
     border-top: 2px solid rgb(196, 193, 193);
   }
 
+  .gallery .content .digital p {
+    font-size: 13px;
+  }
+
   .gallery .content .button {
     background-color: #ff9f43;
     border-radius: 25px;
@@ -126,7 +129,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    /* margin: 4px 2px; */
     cursor: pointer;
   }
 
@@ -134,5 +137,19 @@
    text-transform: uppercase;
   }
 
+  .gallery .content .small {
+    padding-right: 5px;
+  }
 
+  .gallery .content .small {
+    font-size: 10px;
+    margin-top: 0;
+  }
+
+  .gallery .content .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
   
