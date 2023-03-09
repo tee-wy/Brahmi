@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
   
   li,
@@ -19,7 +21,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    /* margin: 50px 0; */
+    margin: 50px 0;
   }
 
   .content {
@@ -62,6 +64,7 @@
     text-align: center;
     margin: 0 auto;
     display: block;
+    margin-top: 4px;
   }
 
   .gallery ul {
@@ -102,6 +105,7 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     text-transform: uppercase;
+    /* margin-top: 8px; */
   }
 
   .card2 {
@@ -114,10 +118,13 @@
 
   .gallery .content .digital {
     border-top: 2px solid rgb(196, 193, 193);
+    margin-top: 5px;
   }
 
-  .gallery .content .digital p {
+  .gallery .content .digital .cash p {
     font-size: 13px;
+    margin-top: 7px;
+    margin-bottom: 7px;
   }
 
   .gallery .content .button {
@@ -129,10 +136,14 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    /* margin: 4px 2px; */
+    margin: 7px 2px;
     cursor: pointer;
   }
 
+  .gallery .digital p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
   .gallery .content .white {
     border-bottom: 2px solid white;
   }
@@ -150,21 +161,53 @@
    
   }
 
-  .gallery .content .small {
-    padding-right: 5px;
+  .gallery .content .prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2rem; */
   }
 
-  .gallery .content .small {
-    font-size: 10px;
-    margin-top: 0;
-  }
 
-  .gallery .content .price {
+  .gallery .prices .price {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
+    margin-bottom: 10px;
   }
+
+  .gallery .content .prices .price .big {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 6px;
+  } 
+
+  .gallery .content .prices .price .small {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 3px;
+    margin-top: 10px;
+  } 
+
+  .gallery .content .total-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery .content .total-price  .strike-out {
+    padding-right: 4px;
+    font-size: 20px;
+  }
+
+  .gallery .content .total-price  .original-price {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
   
   @media (max-width: 1000px) {
     .content {
