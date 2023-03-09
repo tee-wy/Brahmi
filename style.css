@@ -118,16 +118,17 @@
 
   .gallery .content .digital {
     border-top: 2px solid rgb(196, 193, 193);
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .gallery .content .digital .cash p {
     font-size: 13px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  .gallery .content .button {
+  .gallery .content .digital .button {
     background-color: #ff9f43;
     border-radius: 25px;
     color: #000;
@@ -138,6 +139,7 @@
     font-size: 16px;
     margin: 7px 2px;
     cursor: pointer;
+    width: 60%;
   }
 
   .gallery .digital p {
@@ -146,6 +148,7 @@
   }
   .gallery .content .white {
     border-bottom: 2px solid white;
+    padding: 16px 0;
   }
 
   .gallery  .six-months .digital .cash p {
@@ -156,9 +159,13 @@
     color: #ff9f43;
   }
 
-  .gallery .content .h4 {
+  .gallery .six-months .h4 {
    text-transform: uppercase;
-   
+   padding: 18px 0;
+  }
+
+  .gallery .six-months .card2 {
+    padding: 25px 0;
   }
 
   .gallery .content .prices {
@@ -166,7 +173,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
   }
 
 
