@@ -52,7 +52,6 @@
     text-align: center;
   }
   
-  
   .content:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     transform: translate(0px, -8px);
@@ -105,7 +104,7 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     text-transform: uppercase;
-    /* margin-top: 8px; */
+    margin-bottom: 8px;
   }
 
   .card2 {
@@ -148,7 +147,8 @@
   }
   .gallery .content .white {
     border-bottom: 2px solid white;
-    padding: 16px 0;
+    padding: 16px 16px;
+    margin-bottom: 7px;
   }
 
   .gallery  .six-months .digital .cash p {
@@ -161,8 +161,11 @@
 
   .gallery .six-months .h4 {
    text-transform: uppercase;
-   padding: 18px 0;
   }
+
+  .gallery .six-months p {
+    text-transform: uppercase;
+   }
 
   .gallery .six-months .card2 {
     padding: 25px 0;
@@ -175,8 +178,7 @@
     align-items: center;
     margin-top: 2rem;
   }
-
-
+  
   .gallery .prices .price {
     display: flex;
     flex-direction: row;
@@ -214,7 +216,6 @@
     font-size: 30px;
     font-weight: 900;
   }
-  
   
   @media (max-width: 1000px) {
     .content {
