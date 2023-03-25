@@ -15,6 +15,14 @@
       "Helvetica Neue", sans-serif;
   }
 
+  section {
+    background-color: #F0EFED;
+    /* background-image: url("./asset/m-b-back.jpg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+
  section .iframe_wrapper {
     max-width: 1300px;
     margin: 20px auto;
@@ -154,7 +162,7 @@
     animation-name: btn;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-    animation-delay: 300000ms;
+    animation-delay:00ms;
     animation-iteration-count: infinite;
   }
   
@@ -218,13 +226,7 @@
     width: 80%;
   }
   
-  section {
-    background-color: #F0EFED;
-    background-image: url("./asset/m-b-back.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-  }
+  
   
   /* =================== VSL MEDIA QUERY ================== */
   @media screen and (min-width: 700px) {
@@ -366,7 +368,7 @@
     width: 100%;
   }
 
-  .gallery {
+  #gallery {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -385,7 +387,8 @@
     cursor: 10px;
     box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: 0.4s;
-    background-image: linear-gradient(to top, #e4e8ee, #e1e4ea, #dfe1e5, #dcdde1, #d9dadd);
+    background-color: #ffffff;
+    /* background-image: linear-gradient(to top, #e4e8ee, #e1e4ea, #dfe1e5, #dcdde1, #d9dadd); */
     /* background-image: linear-gradient(to bottom, #b9bcc3, #c5c8cf, #d1d3db, #dddfe7, #e9ebf3); */
   }
 
@@ -417,7 +420,7 @@
     margin-top: 4px;
   }
 
-  .gallery ul {
+  #gallery ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -425,12 +428,12 @@
     padding: 0;
   }
   
- .gallery .content p i, .fa {
+ #gallery .content p i, .fa {
     font-size: 15px;
    cursor: pointer;
   }
 
-  .gallery .content {
+  #gallery .content {
     text-transform: uppercase;
   }
 
@@ -443,7 +446,7 @@
     transition: 0.6s;
   }
 
-  .gallery .content button {
+  #gallery .content button {
     text-align: center;
     font-size: 24px;
     color: #fff;
@@ -466,19 +469,19 @@
     width: 100%;
   }
 
-  .gallery .content .digital {
+  #gallery .content .digital {
     border-top: 2px solid rgb(196, 193, 193);
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  .gallery .content .digital .cash p {
+  #gallery .content .digital .cash p {
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  .gallery .content .digital .button {
+  #gallery .content .digital .button {
     background-color: #ff9f43;
     border-radius: 25px;
     color: #000;
@@ -492,7 +495,7 @@
     width: 60%;
   }
 
-  .gallery .digital p {
+  #gallery .digital p {
     margin-top: 7px;
     margin-bottom: 7px;
   }
@@ -502,27 +505,27 @@
     margin-bottom: 7px;
   }
 
-  .gallery  .six-months .digital .cash p {
+  #gallery  .six-months .digital .cash p {
     color: black;
   }
 
-  .gallery  .six-months .digital p {
+  #gallery  .six-months .digital p {
     color: #ff9f43;
   }
 
-  .gallery .six-months .h4 {
+  #gallery .six-months .h4 {
    text-transform: uppercase;
   }
 
-  .gallery .six-months p {
+  #gallery .six-months p {
     text-transform: uppercase;
    }
 
-  .gallery .six-months .card2 {
+  #gallery .six-months .card2 {
     padding: 25px 0;
   }
 
-  .gallery .content .prices {
+  #gallery .content .prices {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -530,7 +533,7 @@
     margin-top: 2rem;
   }
   
-  .gallery .prices .price {
+  #gallery .prices .price {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -538,32 +541,32 @@
     margin-bottom: 10px;
   }
 
-  .gallery .content .prices .price .big {
+  #gallery .content .prices .price .big {
     font-size: 40px;
     font-weight: 900;
     margin-top: 6px;
   } 
 
-  .gallery .content .prices .price .small {
+  #gallery .content .prices .price .small {
     font-size: 14px;
     font-weight: bold;
     padding-left: 3px;
     margin-top: 8.9px;
   } 
 
-  .gallery .content .total-price {
+  #gallery .content .total-price {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
-  .gallery .content .total-price  .strike-out {
+  #gallery .content .total-price  .strike-out {
     padding-right: 4px;
     font-size: 20px;
   }
 
-  .gallery .content .total-price  .original-price {
+  #gallery .content .total-price  .original-price {
     font-size: 30px;
     font-weight: 900;
   }
@@ -629,11 +632,9 @@
     animation-direction: alternate;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    animation-delay: 300000ms;
+    animation-delay: 0ms;
   }
   /* =========== MAIN END========= */
-
-
   
   @media (max-width: 1000px) {
     .content {
