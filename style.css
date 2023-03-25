@@ -263,11 +263,6 @@
     section .heading h1 {
       font-size: 3em;
     }
-
-    section {
-      background-color: white;
-      margin: 0;
-    }
   }
   
   section .heading .heading-vid {
@@ -661,7 +656,6 @@
     }
     section {
       background-color: white;
-      margin: 0;
     }
   }
   
@@ -692,6 +686,5 @@
     }
     section {
       background-color: white;
-      margin: 0;
     }
   }
