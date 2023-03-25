@@ -23,8 +23,9 @@
     background-position: top;
   }
 
-  section .heading h3 {
-    padding-top: .4rem;
+  section .heading h2 {
+    padding-top: 1rem;
+    font-weight: 700;
   }
 
   section .heading h5 .fa-sharp {
