@@ -154,7 +154,7 @@
     animation-name: btn;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-    animation-delay: 0ms;
+    animation-delay: 300000ms;
     animation-iteration-count: infinite;
   }
   
@@ -567,6 +567,73 @@
     font-size: 30px;
     font-weight: 900;
   }
+
+  @keyframes main {
+    0% {
+      transform: scale(1);
+      visibility: visible;
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @-webkit-keyframes main {
+    0% {
+      transform: scale(1);
+      visibility: visible;
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @-o-keyframes main {
+    0% {
+      transform: scale(1);
+      visibility: visible;
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.1);
+    }
+  } 
+  
+  /* =========== MAIN TRANSITION ========= */
+  
+   main {
+    margin: 20px auto;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    visibility: hidden;
+  
+    animation-name: main;
+    animation-duration: 20ms;
+    animation-iteration-count: 0;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 300000ms;
+  }
+  /* =========== MAIN END========= */
+
+
   
   @media (max-width: 1000px) {
     .content {
