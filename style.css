@@ -210,6 +210,7 @@
   
   section {
     background-color: white;
+    margin: 2rem 5rem;
   }
   section .headlines {
     width: 100%;
@@ -225,8 +226,6 @@
     margin: auto;
     width: 80%;
   }
-  
-  
   
   /* =================== VSL MEDIA QUERY ================== */
   @media screen and (min-width: 700px) {
@@ -264,6 +263,11 @@
     section .heading h1 {
       font-size: 3em;
     }
+
+    section {
+      background-color: white;
+      margin: 0;
+    }
   }
   
   section .heading .heading-vid {
@@ -272,10 +276,16 @@
     margin: 20px auto 0;
     border: 2px solid red;
   }
+
+  section .container .welcome .welcome-text h3 {
+    text-align: center;
+  }
+
   section .container .welcome {
     background-color: white;
     padding: 10px 15px;
   }
+
   section .container .welcome .welcome-text h4 {
     text-align: center;
     font-weight: 700;
@@ -283,6 +293,7 @@
     width: 90%;
     margin: auto;
   }
+
   section .container .welcome .welcome-text .div {
     border-radius: 6px;
     color: #4a4a4a;
@@ -295,11 +306,13 @@
     line-height: 1.4;
     text-align: center;
   }
+
   @media screen and (min-width: 700px) {
     /* section .container .welcome .welcome-text .div {
       width: 70%;
     } */
   }
+
   section .container .welcome .welcome-text .div h3 {
     font-family: "Open Sans";
     color: #4a4a4a;
@@ -646,6 +659,10 @@
     iframe {
       margin: 30px 0;
     }
+    section {
+      background-color: white;
+      margin: 0;
+    }
   }
   
   @media (max-width: 750px) {
@@ -672,4 +689,9 @@
     }
     h2 {
       font-size: 20px;
-    }}
+    }
+    section {
+      background-color: white;
+      margin: 0;
+    }
+  }
