@@ -15,7 +15,7 @@
       "Helvetica Neue", sans-serif;
   }
 
-  .iframe_wrapper {
+ section .iframe_wrapper {
     max-width: 1300px;
     margin: 20px auto;
     width: 90%;
@@ -23,7 +23,7 @@
     padding: 60px 0px;
     text-align: center;
   }
-  iframe {
+ section iframe {
     width: 90%;
   }
   
@@ -120,27 +120,27 @@
     }
   }
   
-  .heading {
+  section .heading {
     text-align: center;
     margin-bottom: 2rem;
   }
-  .container .welcome .welcome-text h3 span {
+  section .container .welcome .welcome-text h3 span {
     color: red;
     font-weight: bolder;
   }
   
-  .container .welcome .welcome-text h3{
+ section .container .welcome .welcome-text h3{
     font-weight: bolder;
     font-size: 18px;
     color: black;
   }
   
-  .container .welcome .welcome-text h3 i{
+ section .container .welcome .welcome-text h3 i{
     padding-right: 3px;
   }
   
   /* =========== BUTTON 1========= */
-    .container .welcome .welcome-text button {
+   section .container .welcome .welcome-text button {
     margin: 20px auto;
     width: 100%;
     height: 100px;
@@ -158,10 +158,10 @@
     animation-iteration-count: infinite;
   }
   
-  .container .welcome .welcome-text button:hover {
+ section .container .welcome .welcome-text button:hover {
     background-color: rgb(8, 82, 8);
   }
-  .container .welcome .welcome-text button a {
+ section .container .welcome .welcome-text button a {
     color: white;
     padding: 20px;
     display: block;
