@@ -23,6 +23,10 @@
     background-position: top;
   }
 
+  section .heading h3 {
+    padding-top: .4rem;
+  }
+
   section .heading h5 .fa-sharp {
     color: black;
     font-size: .8rem;
