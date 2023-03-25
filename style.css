@@ -23,6 +23,12 @@
     background-position: top;
   }
 
+  section .heading h5 .fa-sharp {
+    color: black;
+    font-size: .8rem;
+    padding-right: .2rem;
+  }
+
  section .iframe_wrapper {
     max-width: 1300px;
     margin: 20px auto;
@@ -162,7 +168,7 @@
     animation-name: btn;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-    animation-delay:300000ms;
+    animation-delay:00000ms;
     animation-iteration-count: infinite;
   }
   
@@ -640,7 +646,7 @@
     animation-direction: alternate;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    animation-delay: 300000ms;
+    animation-delay: 00000ms;
   }
   /* =========== MAIN END========= */
   
